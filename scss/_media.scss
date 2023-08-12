@@ -1,0 +1,253 @@
+
+
+@media (max-width: 1300px){
+
+.about-slider{
+
+	&__slide-left,
+	&__slide-right{
+		display: none;
+	}
+}
+
+
+}
+
+
+@media (max-width: 1100px){
+
+.header{
+
+	&__item{
+		font-size: 12px;
+	}
+
+}
+
+}
+
+
+@media (max-width: 1023px){
+
+.nav{
+	display: none;
+}
+
+.header{
+
+	&__list-button--display-1023{
+		display: block;
+	}
+}
+
+.hero{
+
+	&__title{
+		font-size: 24px;
+	}
+
+	&__title-block{
+		margin: 0 auto;
+		text-align: center;
+	}
+}
+
+.banner-info{
+
+	&__content{
+		justify-content: center;
+	}
+
+	&__card{
+		flex: 0 1 calc((100% - 80px) /3);
+	}
+}
+
+.about-slider{
+
+	&__card:last-child{
+		display: none;
+	}
+}
+
+.presentation{
+
+	&__card{
+		flex: 1 1 calc((100% - 60px) / 2);
+	}
+}
+
+.companies{
+
+	&__card{
+		flex: 1 1 calc((100% - 90px) / 2);
+	}
+}
+
+}
+
+
+@media (max-width: 808px){
+
+.subscription{
+
+	&__content{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}
+
+}
+
+
+@media (max-width: 767px){
+
+.link-top{
+
+	&__svg{
+		width: 24px;
+		height: 24px;
+	}
+	
+}
+
+.header{
+
+	&__list-button--display-660{
+		display: none;
+	}
+}
+
+.hero{
+	&__title-block{
+		padding: 8px 13px;
+	}
+}
+
+.banner-info{
+
+	&__card{
+		flex: 0 1 calc((100% - 80px) /2);
+		flex-direction: column;
+		text-align: center;
+	}
+}
+
+.about-slider{
+
+	&__card:first-of-type{
+		display: none;
+	}
+}
+
+.catalog-info{
+
+	&__buttons{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}
+
+.presentation{
+
+	&__card{
+		flex: 1 1 calc((100% - 60px) / 1);
+	}
+}
+
+.rent{
+
+	&__card{
+		flex: 1 1 calc((100% - 90px) /2);
+	}
+}
+
+.news{
+
+	&__link-card:first-child{
+		display: none;
+	}
+}
+
+}
+
+
+@media (max-width: 480px){
+
+.logo{
+
+	&__title{
+		font-size: 17px;
+	}
+}
+
+.header{
+
+	&__item-button{
+		padding: 15px;
+	}
+}
+
+.banner-info{
+
+	&__content{
+		gap: 30px;
+	}
+
+	&__card{
+		flex: 0 1 calc((100% - 80px) / 1);
+	}
+}
+
+.about-slider{
+
+	&__buttons-card{
+		gap: 10px;
+	}
+}
+
+.rent{
+
+	&__btn-link-section{
+		font-size: 10px;
+	}
+
+	&__card{
+		flex: 1 1 calc((100% - 90px) /1);
+	}
+
+}
+
+.news{
+
+	&__card{
+		flex: 1 1 calc((100% - 60px) / 1);
+	}
+}
+
+.companies{
+
+	&__card{
+		flex: 1 1 calc((100% - 90px) / 1);
+	}
+}
+
+.subscription{
+
+	&__form{
+		flex-direction: column;
+	}
+
+	&__input{
+		flex: 0 1 100%;
+	}
+
+	&__btn-form{
+		flex: 0 1 100%;
+	}
+
+}
+
+}
+
+

@@ -1,0 +1,30 @@
+
+
+// FONT
+
+$fontDefault: 'Ubuntu', sans-serif;
+
+$fontSeparate: 'Montserrat', sans-serif;
+
+
+// COLOR
+
+$colorDefault: #000;
+
+$colorSeparate: #75758A;
+
+
+// BACKGROUND
+
+$bgDefault: #fff;
+
+$bgSeparate: #F5F5F5;
+
+
+// MIXINS
+
+@mixin hero__title-block{
+	padding: 13px 20px;
+	background-color: #fff;
+	box-shadow: 0px 2px 6px 0px #75758A;
+}
